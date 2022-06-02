@@ -1,0 +1,173 @@
+
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+
+  font-family: 'Montserrat-black', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  
+}
+
+
+h2 {
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h3{
+  font-family: 'Montserrat-bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+p{
+  color: #8f8f8f;
+}
+
+/* title section */
+#title {
+  background-image: linear-gradient(#D61C4E,#D61C4E, #f7d716);
+  color: #fff;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-family: 'Montserrat-light', sans-serif;
+  font-size:1.25rem;
+  
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2.5rem;
+    font-weight: bold;
+    
+}
+.container-fluid{
+  padding: 3% 15% 7%;
+  
+}
+
+/* download buttons */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+/* title image */
+.dog{
+  width:60%;
+  transform: rotate(25deg);
+  
+  position: absolute;
+  right: 20%;
+ 
+  
+  
+  
+}
+
+/* features */
+
+#features{
+  position: relative;
+  /* z-index: 1; */
+  background-color: #fff;
+  padding: 8% 18%;
+
+}
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  color: #D61C4E;
+ 
+  margin-bottom: 2rem;
+ 
+ 
+
+}
+
+.icon:hover{
+  color:#f7d716;
+}
+
+#testimonials{
+  background-image: linear-gradient(#D61C4E,#D61C4E, #f7d716);
+  color: #fff;
+  text-align: center;
+  
+}
+
+.dog-img{
+  width:10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press{
+  background-image: linear-gradient(#f7d716,#f7d716,#D61C4E );
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-img{
+  width: 15%;
+  margin:20px 15px 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+/* pricing */
+#pricing{
+  color: #D61C4E;
+  padding: 7% 15%;
+  text-align: center;
+}
+.prc-card{
+  padding: 4% 4%;
+}
+
+@media(max-width:1028px){
+  .dog{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+
+}
+
+
+/* CTA */
+#cta{
+  text-align: center;
+  background-image: linear-gradient(#D61C4E,#D61C4E);
+  padding: 7% 15%;
+}
+.rc{
+  color: white;
+}
+
+
+/* footer */
+#footer{
+  padding:8% 15%;
+  text-align: center;
+  background-color: white;
+}
+.footer-link{
+  padding:2% 2% 2%;
+}
+
